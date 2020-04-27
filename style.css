@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+h1{
+    margin: 20px;
+}
+
+/* Pagination */
+.pagination{
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* Pagination anchor tag */
+.pagination a {
+    color: black;
+    float: left;
+    padding: 7px 16.5px;
+    text-decoration: none;
+    border: 1px solid steelblue;
+}
+
+/* Pagination a tag hover */
+.pagination a:hover{
+    background-color: white;
+}
+
+/* Pagination of active page */
+.pagination a.active{
+    background-color: paleturquoise;
+}
+
+/* User details */
+#user1{
+    font-size: inherit;
+    margin: 20px;
+}
+#user1 input{
+    display: block;
+    width: 20%;
+    margin-bottom: 15px;
+}
+#user1 input[type="text"] {
+    display: block;
+    border: 2px solid steelblue;
+    background: #faf6d9;
+    height: 25px;
+}
+#user1 input:focus{
+    background: white;
+}
+
+button{
+    background: steelblue;
+    width: 215px;
+    height: 30px;
+    border: 2px solid steelblue;
+    font-size: 18px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Thanks Note */
+.heading{
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.search-box [type="text"]{
+    background-color: white;
+    margin-left: 20px;
+    width: 210px;
+    height: 22px;
+    border: 2px solid steelblue;
+    
+}
